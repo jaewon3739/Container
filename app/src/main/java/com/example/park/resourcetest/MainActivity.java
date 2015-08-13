@@ -28,7 +28,7 @@ public class MainActivity extends Activity {
 
         Resources resource = null;
         String packageName = null;
-
+        //asd
         try {
             for (ResolveInfo resolveInfo : list) {
                 packageName = resolveInfo.activityInfo.packageName;
